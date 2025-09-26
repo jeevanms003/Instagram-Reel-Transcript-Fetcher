@@ -91,7 +91,7 @@ http://localhost:3000
 
 **Make a GET request to the /transcript endpoint with a url query parameter.**
 
--Example:
+- Example:
 
 ```cmd
 curl "http://localhost:3000/transcript?url=https://www.instagram.com/reel/REEL_ID/"
@@ -118,13 +118,13 @@ curl "http://localhost:3000/transcript?url=https://www.instagram.com/reel/REEL_I
 
 ## Error handling
 
-**If url is not provided, the API returns a 400 status code:**
+- **If url is not provided, the API returns a 400 status code:**
 
 ```json
 { "error": "url query parameter is required" }
 ```
 
-**If a transcript is unavailable for a language, the response includes:**
+- **If a transcript is unavailable for a language, the response includes:**
 
 ```json
 "Transcript not available in <lang>"
