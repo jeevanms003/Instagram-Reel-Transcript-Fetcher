@@ -32,7 +32,7 @@ Before running the application, ensure you have the following installed:
 1. **Clone the repository** (or create a new project directory):
 
 ```bash
-git clone <Instagram-Reel-Transcript-Fetcher>
+git clone https://github.com/jeevanms003/Instagram-Reel-Transcript-Fetcher
 cd Instagram-Reel-Transcript-Fetcher
 ```
 2. **Install dependencies:**
