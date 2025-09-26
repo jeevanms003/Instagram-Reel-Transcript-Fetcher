@@ -133,7 +133,7 @@ curl "http://localhost:3000/transcript?url=https://www.instagram.com/reel/REEL_I
 
 ## API Endpoint
 ```cmd
-- GET /transcript
+GET /transcript
 ```
 ---
 
