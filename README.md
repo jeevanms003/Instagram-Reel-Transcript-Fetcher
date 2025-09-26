@@ -75,13 +75,13 @@ PORT=3000
 
 **Start the server**
 
-- Compile the TypeScript code and run the server:
+- **Compile the TypeScript code and run the server:**
 
 ```cmd
 npx ts-node index.ts
 ```
 
-**The server will start at:**
+- **The server will start at:**
 ```cmd
 http://localhost:3000
 ```
