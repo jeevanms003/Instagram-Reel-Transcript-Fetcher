@@ -71,7 +71,7 @@ PORT=3000
 
 ---
 
-##Usage
+## Usage
 
 **Start the server**
 
@@ -87,7 +87,7 @@ http://localhost:3000
 ```
 ---
 
-##Fetch a transcript
+## Fetch a transcript
 
 **Make a GET request to the /transcript endpoint with a url query parameter.**
 
@@ -101,7 +101,7 @@ curl "http://localhost:3000/transcript?url=https://www.instagram.com/reel/REEL_I
 
 ---
 
-##Response format
+## Response format
 
 **The API returns a JSON object with the Reel URL and transcript data for each language:**
 
@@ -116,7 +116,7 @@ curl "http://localhost:3000/transcript?url=https://www.instagram.com/reel/REEL_I
 ```
 ---
 
-##Error handling
+## Error handling
 
 **If url is not provided, the API returns a 400 status code:**
 
@@ -131,13 +131,13 @@ curl "http://localhost:3000/transcript?url=https://www.instagram.com/reel/REEL_I
 ```
 ---
 
-##API Endpoint
+## API Endpoint
 ```cmd
 - GET /transcript
 ```
 ---
 
-##Query Parameter
+## Query Parameter
 
 **url (string, required) – The full Instagram Reel URL.**
 
